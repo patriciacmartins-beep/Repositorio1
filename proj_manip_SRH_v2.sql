@@ -165,7 +165,7 @@ FROM TB_SRH_CARGO;
 SELECT SUM(vl_quantidade) AS 'TOTAL DE POSIÇÕES ABERTAS'
 FROM TB_SRH_VAGA;
 
--- Quantidade de candidaturas por vaga (só vagas com mais de 1)
+-- Quantidade de candidaturas por vaga
 SELECT id_vaga, COUNT(*) AS 'CANDIDATURAS'
 FROM TB_SRH_CANDIDATURA
 GROUP BY id_vaga;
