@@ -264,7 +264,7 @@ UPDATE TB_SRH_VAGA
     WHERE id_vaga = 1;
 
 -- A candidata Mariana passou da triagem para a entrevista na vaga 2
-UPDATE TB_SRH_CANDIDATURA|
+UPDATE TB_SRH_CANDIDATURA
     SET st_etapa = 'EN'
     WHERE id_candidato = 2 AND id_vaga = 2;
 
