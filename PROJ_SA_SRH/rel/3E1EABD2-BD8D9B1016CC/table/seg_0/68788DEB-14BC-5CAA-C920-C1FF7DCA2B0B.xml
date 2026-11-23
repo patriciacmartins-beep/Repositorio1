@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68788DEB-14BC-5CAA-C920-C1FF7DCA2B0B" name="TB_SRH_VAGA">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>1CC3ABC2-6F78-8BFD-54D5-3AE933F4AC2C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vaga" id="29F4A695-6900-4565-582D-5739B319846C">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>F97ED6DB-30CF-F4F6-118D-7D1AC1594729</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cargo" id="121E7395-4974-058E-5F8D-9959EE7A14FD">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>D04E055F-7A56-980C-DFAB-2BA75587FB8A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCA6EF45-4FF4-FE49-7AB3-60468EE9AAA3" referredColumn="CBAC92B9-99DA-67A8-C2EC-C6235C860ACB"/>
+</associations>
+</Column>
+<Column name="vl_quantidade" id="07224019-E9E1-4673-7C7A-C9F3B1F19EAA">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>AD091916-60C7-308C-8D94-327768581402</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_vaga" id="A7CB9E84-A75E-B863-03F9-59CABEAE5BED">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>3AFD8EB0-78F2-7C80-589B-65AC9798C16B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>1723CE08-CBFD-EE19-5383-2FAAA46A137F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0643234-C4F5-D4F0-F6B9-CD9BC93B6B21" name="TB_SRH_VAGA PK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>D9D0819A-52C6-4094-8977-F97AF13B9B76</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29F4A695-6900-4565-582D-5739B319846C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="141C4B7B-FDF5-9F1C-C753-FCBE6C23D90A" name="TB_SRH_VAGA_TB_SRH_CARGO_FK">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="121E7395-4974-058E-5F8D-9959EE7A14FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

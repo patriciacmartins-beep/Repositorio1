@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="TB_SRH_CANDIDATURA" directorySegmentName="seg_0" id="244C9312-F94A-B855-F14C-47750079C872">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>6C4D9281-0F39-7971-EBB8-BFF2B0C0013E</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id_vaga" id="105BA061-2640-9ABF-89EE-8C382FAC3968">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="st_etapa" id="53034A1E-F903-186D-A840-E72E2D9C835C">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="dt_inscricao" id="8A48CB48-BFC2-2D7E-B7DA-8960F305D281">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id_candidato" id="F9FB532D-C582-D30C-BE1F-9878553CA9D8">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id_candidatura" id="FF72D7DA-8EE0-BD2E-9ADA-20FBD912D719">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TB_SRH_CANDIDATURA_TB_SRH_VAGA_FK" id="0D237FD1-812E-6796-1DDB-BDAB4D2E9F90">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>srh3</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="TB_SRH_CANDIDATURA_TB_SRH_CANDIDATO_FK" id="7F0F7443-4B3D-125B-4B3E-814A7D0DF1E9">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>srh3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="TB_SRH_CANDIDATURA PK" id="2A62A8F5-863A-F8C0-D5DB-A1BFE4014767">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

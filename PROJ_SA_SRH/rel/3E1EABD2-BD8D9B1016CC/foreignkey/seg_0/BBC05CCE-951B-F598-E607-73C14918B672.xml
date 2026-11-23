@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBC05CCE-951B-F598-E607-73C14918B672" containerWithKeyObject="0B95B9F5-545F-CA1B-3A38-39E3F16CC955" localFKIndex="55BD8572-F365-2F50-9EFE-A3BCE4B06353" name="TB_SRH_FUNCIONARIO_TB_SRH_CARGO_FK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>FB5BFF68-C75D-D6F7-D2D7-347F05BA1023</importedID>
+<referredTableLongName>TB_SRH_CARGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7460D91-AD83-CB0A-1081-835081F1F8E1</referredTableID>
+<keyObject>56AC53EE-2305-64CE-7FC2-2A2CB3DE01D8</keyObject>
+<referredKeyID>56AC53EE-2305-64CE-7FC2-2A2CB3DE01D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cargo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

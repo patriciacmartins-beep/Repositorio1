@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="srh3_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_2" id="1723CE08-CBFD-EE19-5383-2FAAA46A137F">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>2</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="3BC838E5-AF3A-E913-138E-5E9C96ECE283">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="4DBEE129-2439-DC83-31C3-F99326A9503A">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80" id="4ECB7157-3E30-B076-4DA8-CC01F426D512">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>80</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="5244B37D-C2DE-EBE4-C1E7-D0C4C866DE44">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Datetime_0_0_0" id="582C9CEA-3448-3B03-A1C0-62B719B85723">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_14" id="9EAC5EDF-1E37-6F0A-32C2-1CD574CB7606">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>14</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="B8732F7C-7822-9619-E36D-1AC92432D5C4">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0" id="CBC642D1-DDAB-92BB-8548-3899B01C2A17">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="EBE27110-97F9-3F3D-C460-8E28B53EBA65">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="F7A11FFE-3E8A-D037-C28E-6C4776F9E409">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>srh3_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

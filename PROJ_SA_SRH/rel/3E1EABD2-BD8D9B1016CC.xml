@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3E1EABD2-FF26-F1A6-0E09-BD8D9B1016CC" mainViewID="ABB2E16F-B062-97E0-1CDE-656A3C9D227B">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:50:02 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>proj_cria_SRH.sql</fileName>
+<pathName>/tmp/claude-1000/dmw</pathName>
+<dbType>13</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

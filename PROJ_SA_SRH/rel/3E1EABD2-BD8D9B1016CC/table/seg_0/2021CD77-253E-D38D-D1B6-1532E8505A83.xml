@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2021CD77-253E-D38D-D1B6-1532E8505A83" name="TB_SRH_USUARIO">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>0668A32F-5054-FB7D-D03C-7D6FF3CD6516</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="67ABF101-BA36-FAEF-BE6A-6381790BB45E">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>ED638C46-4E2E-D3FE-4C2E-FDDE513FF22A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="18C98F02-1B10-8F40-4EBB-58399CC72503">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>01E11216-3EA9-9278-81D3-4CDE30CA80E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4ECB7157-3E30-B076-4DA8-CC01F426D512</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="2A3F40A2-9EFB-014E-D0EE-6C29FA250ACE">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>F743B3C6-20DC-7383-C276-65F0EE6C7073</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B8732F7C-7822-9619-E36D-1AC92432D5C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="5AE6B156-595E-8D37-384E-AF8D4E5DDD26">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>A247E1BA-8DB9-9A25-5FD4-A872E9A49550</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3BC838E5-AF3A-E913-138E-5E9C96ECE283</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_perfil" id="BD4A62F2-8DB1-2781-53BE-C50FF8A71D5B">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>999E0636-9C35-E7F4-8E7B-A841D44D60FA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>1723CE08-CBFD-EE19-5383-2FAAA46A137F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A91D9483-2EFD-F8DB-07EC-AFD2396D9C48" name="TB_SRH_USUARIO PK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>E6D7DEC6-43AB-0524-7E38-0C8D9DC9D268</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67ABF101-BA36-FAEF-BE6A-6381790BB45E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

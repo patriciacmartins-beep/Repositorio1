@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BF4E6EC-044B-63AA-9847-4F66960EFF6A" containerWithKeyObject="244C9312-F94A-B855-F14C-47750079C872" localFKIndex="7F0F7443-4B3D-125B-4B3E-814A7D0DF1E9" name="TB_SRH_CANDIDATURA_TB_SRH_CANDIDATO_FK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>B89009A8-65D9-95CF-3D88-382C51103202</importedID>
+<referredTableLongName>TB_SRH_CANDIDATO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0B25E91-6101-A492-F85A-71C0EAA0F4B4</referredTableID>
+<keyObject>FE8B8676-EA7A-608F-1E84-803A2D680B4D</keyObject>
+<referredKeyID>FE8B8676-EA7A-608F-1E84-803A2D680B4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_candidato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

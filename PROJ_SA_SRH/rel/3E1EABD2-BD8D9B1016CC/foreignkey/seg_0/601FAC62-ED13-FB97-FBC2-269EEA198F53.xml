@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="601FAC62-ED13-FB97-FBC2-269EEA198F53" containerWithKeyObject="9674F11C-1EBD-BE31-3DDF-5741A5C21631" localFKIndex="93A08302-BE0E-9A61-32A9-83FD0A6C4F29" name="TB_SRH_NOTIFICACAO_TB_SRH_USUARIO_FK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>615AA4AC-56AE-7526-F757-296E07D1D08A</importedID>
+<referredTableLongName>TB_SRH_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2021CD77-253E-D38D-D1B6-1532E8505A83</referredTableID>
+<keyObject>A91D9483-2EFD-F8DB-07EC-AFD2396D9C48</keyObject>
+<referredKeyID>A91D9483-2EFD-F8DB-07EC-AFD2396D9C48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

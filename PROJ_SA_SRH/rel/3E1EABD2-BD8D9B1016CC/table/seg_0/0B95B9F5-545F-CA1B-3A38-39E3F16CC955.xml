@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B95B9F5-545F-CA1B-3A38-39E3F16CC955" name="TB_SRH_FUNCIONARIO">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>A18241D0-21DC-D168-018B-561B321CCA62</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_funcionario" id="2F5D0EBD-843D-E47E-75F7-9099B62C50A7">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>95403CBF-FEE8-3BE8-2454-E983AB1C7DD4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_departamento" id="AF7D47D9-EF76-295C-D3FE-CE3516B0C68D">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>AC233891-E017-9ACC-349B-6E3A150340F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="659EDAEA-77C6-B617-0F9B-BF326DC4025E" referredColumn="605AF86A-2656-43FC-8606-E2C8DBE3E7EF"/>
+</associations>
+</Column>
+<Column name="id_cargo" id="2178B515-DADD-FBA9-729E-98F8C0223B19">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>78FA0A2B-E04A-FCBB-35B6-94CE1A790152</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBC05CCE-951B-F598-E607-73C14918B672" referredColumn="CBAC92B9-99DA-67A8-C2EC-C6235C860ACB"/>
+</associations>
+</Column>
+<Column name="nm_nome" id="9D6C0177-587B-A8E6-596C-AF91F08352DB">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>8EC8C2F3-1133-64AC-18B1-0B0E3C57A366</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4ECB7157-3E30-B076-4DA8-CC01F426D512</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="1DAAEE94-004C-5299-2BF6-6194DB30B212">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>9D8B3219-53F7-D531-FCBF-80A4CAE29E74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EAC5EDF-1E37-6F0A-32C2-1CD574CB7606</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="EFE78EE1-5ABF-8888-16CA-FE16715A7668">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>A83F3B27-6B23-B388-0B90-CBAFC9A63BFF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>582C9CEA-3448-3B03-A1C0-62B719B85723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D221891-6B25-7D0A-A3F5-8C7F93A05EC0" name="TB_SRH_FUNCIONARIO PK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>B245C53B-2FFC-6B1D-5D42-CD11ED97C084</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F5D0EBD-843D-E47E-75F7-9099B62C50A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F45C8D97-1DBF-BD65-1799-C4944F84E1D7" name="TB_SRH_FUNCIONARIO_TB_SRH_DEPARTAMENTO_FK">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF7D47D9-EF76-295C-D3FE-CE3516B0C68D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55BD8572-F365-2F50-9EFE-A3BCE4B06353" name="TB_SRH_FUNCIONARIO_TB_SRH_CARGO_FK">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2178B515-DADD-FBA9-729E-98F8C0223B19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

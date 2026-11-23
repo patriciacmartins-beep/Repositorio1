@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B799E838-6E23-4F51-749C-4CFEB2874CC3" containerWithKeyObject="244C9312-F94A-B855-F14C-47750079C872" localFKIndex="0D237FD1-812E-6796-1DDB-BDAB4D2E9F90" name="TB_SRH_CANDIDATURA_TB_SRH_VAGA_FK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>E17F8CE6-1019-8D86-2E3B-948DFB25BB27</importedID>
+<referredTableLongName>TB_SRH_VAGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68788DEB-14BC-5CAA-C920-C1FF7DCA2B0B</referredTableID>
+<keyObject>F0643234-C4F5-D4F0-F6B9-CD9BC93B6B21</keyObject>
+<referredKeyID>F0643234-C4F5-D4F0-F6B9-CD9BC93B6B21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vaga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

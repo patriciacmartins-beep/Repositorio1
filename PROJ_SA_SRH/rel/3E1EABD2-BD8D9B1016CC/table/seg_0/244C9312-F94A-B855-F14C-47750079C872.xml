@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="244C9312-F94A-B855-F14C-47750079C872" name="TB_SRH_CANDIDATURA">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>90A702CC-D511-6FD2-33E8-BE6247B5EBDD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_candidatura" id="FF72D7DA-8EE0-BD2E-9ADA-20FBD912D719">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>74F5828C-CD84-3B46-2300-D75935C62120</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_candidato" id="F9FB532D-C582-D30C-BE1F-9878553CA9D8">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>4EECC9DD-2F1B-42C2-C85F-49E4CA0E65F7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BF4E6EC-044B-63AA-9847-4F66960EFF6A" referredColumn="41E33A24-C79A-674B-15A1-62157A11B9EC"/>
+</associations>
+</Column>
+<Column name="id_vaga" id="105BA061-2640-9ABF-89EE-8C382FAC3968">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>133D06D1-ABCC-0BCC-1A40-652680630C53</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>F7A11FFE-3E8A-D037-C28E-6C4776F9E409</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B799E838-6E23-4F51-749C-4CFEB2874CC3" referredColumn="29F4A695-6900-4565-582D-5739B319846C"/>
+</associations>
+</Column>
+<Column name="dt_inscricao" id="8A48CB48-BFC2-2D7E-B7DA-8960F305D281">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>F8089887-0709-3E45-9453-CB4AE3242A0D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>582C9CEA-3448-3B03-A1C0-62B719B85723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_etapa" id="53034A1E-F903-186D-A840-E72E2D9C835C">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>7FEB6182-42CF-6D84-4035-56D0FA627D15</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>1723CE08-CBFD-EE19-5383-2FAAA46A137F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A62A8F5-863A-F8C0-D5DB-A1BFE4014767" name="TB_SRH_CANDIDATURA PK">
+<sourceDDLFile>proj_cria_SRH.sql</sourceDDLFile>
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<importedID>375FDD7A-809B-F7D5-CAB7-CAF22FF66354</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF72D7DA-8EE0-BD2E-9ADA-20FBD912D719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F0F7443-4B3D-125B-4B3E-814A7D0DF1E9" name="TB_SRH_CANDIDATURA_TB_SRH_CANDIDATO_FK">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9FB532D-C582-D30C-BE1F-9878553CA9D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D237FD1-812E-6796-1DDB-BDAB4D2E9F90" name="TB_SRH_CANDIDATURA_TB_SRH_VAGA_FK">
+<createdBy>Patricia</createdBy>
+<createdTime>2026-11-18 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJ_SA_SRH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105BA061-2640-9ABF-89EE-8C382FAC3968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
